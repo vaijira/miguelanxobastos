@@ -1,0 +1,4 @@
+# Spa-style 404 fallback — serve index.html for any unknown path at root
+# (bookdown will handle its own paths under /conferencias_vol_i/)
+/conferencias_vol_i/* /conferencias_vol_i/:splat 200
+/* /index.html 200

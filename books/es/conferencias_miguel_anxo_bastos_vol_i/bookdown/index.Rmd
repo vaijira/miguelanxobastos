@@ -1,0 +1,21 @@
+--- 
+title: "Conferencias de Miguel Anxo Bastos, Volumen I"
+author: "SinCertezas"
+date: "`r Sys.Date()`"
+lang: "es"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+url: https://www.miguelanxobastos.org/conferencias_vol_i/
+# cover-image: images/cover.png
+description: |
+  Conferencias de Miguel Anxo Bastos, Volumen I.
+biblio-style: apalike
+csl: chicago-fullnote-bibliography.csl
+---
+
+# Introducción
+
+Este libro contiene una recopilación de conferencias impartidas por el profesor
+Miguel Anxo Bastos Boubeta.
+
