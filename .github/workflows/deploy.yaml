@@ -23,6 +23,9 @@ jobs:
           r-version: '4.3'
           use-public-rspm: true
 
+      - name: Set up Pandoc
+        uses: r-lib/actions/setup-pandoc@v2
+
       - name: Install system dependencies
         run: |
           sudo apt-get update -qq
@@ -37,10 +40,13 @@ jobs:
       - name: Install R packages
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
+          cache-version: 1
           packages: |
             any::bookdown
             any::rmarkdown
             any::knitr
+            any::downlit
+            any::xml2
 
       - name: Build bookdown (HTML)
         working-directory: books/es/conferencias_miguel_anxo_bastos_vol_i/bookdown
