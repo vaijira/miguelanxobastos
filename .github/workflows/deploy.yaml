@@ -36,6 +36,8 @@ jobs:
           cp -r site/. _site/
           # Book HTML output under /conferencias_vol_i/
           cp -r books/es/conferencias_miguel_anxo_bastos_vol_i/quarto/_book/. _site/conferencias_vol_i/
+          # Copy logo for the landing page favicon
+          cp books/es/conferencias_miguel_anxo_bastos_vol_i/quarto/logo.png _site/logo.png
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
@@ -46,9 +48,3 @@ jobs:
           projectName: miguelanxobastos
           directory: _site
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Install epubcheck
-        run: sudo apt-get install epubcheck
-
-      - name: Check epub with epubcheck
-        run: epubcheck _book/Conferencias-de-Miguel-Anxo-Bastos,-Volumen-I.epub

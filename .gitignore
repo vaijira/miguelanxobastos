@@ -71,3 +71,6 @@ rsconnect/
 **/*.mobi
 **/*.rds
 **/_book
+
+**/.quarto/
+**/*.quarto_ipynb

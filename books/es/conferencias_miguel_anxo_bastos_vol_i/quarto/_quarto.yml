@@ -41,7 +41,7 @@ format:
     date: today
     css: styles.css
   pdf:
-    keep-tex: true
+    # keep-tex: true
     documentclass: scrbook
     classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,12pt]
     include-in-header:
