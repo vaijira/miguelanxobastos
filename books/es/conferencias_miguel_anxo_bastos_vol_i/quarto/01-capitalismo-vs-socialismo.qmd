@@ -1,6 +1,11 @@
 # Capitalismo versus Socalismo
 
-## [Comparación entre Capitalismo y Socialismo en el X Seminario InterUniversitario Economía para la Política. Universidad de San Carlos de Guatemala, Guatemala, 18 de abril de 2012.](https://www.youtube.com/watch?v=05VO-FLrNi8) {.unnumbered}
+## Comparación entre Capitalismo y Socialismo en el X Seminario inter universitario economía para la política. Universidad de San Carlos de Guatemala, Guatemala, 18 de abril de 2012. {.unnumbered}
+
+::: {.content-hidden unless-format="html"}
+{{< video https://www.youtube.com/watch?v=05VO-FLrNi8 >}}
+:::
+
 
 El tema que el profesor Cristian me propuso es el tema de los sistemas políticos económicos comparados o sea,
 básicamente comparar el capitalismo y el socialismo. Y después el tema de cuál es la forma política pues más

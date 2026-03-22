@@ -19,6 +19,11 @@ jobs:
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          # To install LaTeX to build PDF book
+          tinytex: true
+          # uncomment below and fill to pin a version
+          #version: 1.3.353
 
       - name: Build book (HTML)
         working-directory: books/es/conferencias_miguel_anxo_bastos_vol_i/quarto
@@ -41,3 +46,9 @@ jobs:
           projectName: miguelanxobastos
           directory: _site
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install epubcheck
+        run: sudo apt-get install epubcheck
+
+      - name: Check epub with epubcheck
+        run: epubcheck _book/Conferencias-de-Miguel-Anxo-Bastos,-Volumen-I.epub

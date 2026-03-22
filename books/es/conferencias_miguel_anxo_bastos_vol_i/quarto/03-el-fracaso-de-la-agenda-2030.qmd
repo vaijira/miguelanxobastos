@@ -1,7 +1,11 @@
 # El fracaso de la agenda 2030.
 
 
-## [Conferencia del profesor Miguel Anxo Bastos en el congreso anual del Xoán de Lugo de 2022. V Xuntanzas Austriaco - Galaicas. Mondoñedo, Lugo, Noviembre de 2022.](https://www.youtube.com/watch?v=YnJU9JOAi0c) {.unnumbered}
+## Congreso anual del Xoán de Lugo de 2022. V Xuntanzas Austriaco - Galaicas. Mondoñedo, Lugo, Noviembre de 2022. {.unnumbered}
+
+::: {.content-hidden unless-format="html"}
+{{< video https://www.youtube.com/watch?v=YnJU9JOAi0c >}}
+:::
 
 Muchas gracias a todos. Bienvenidos, un honor estar aquí con vos. A ver, primera conferencia igual no sale muy bien porque sólo tuve un mes para
 prepararla entonces a ver lo que sale de aquí.

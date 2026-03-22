@@ -8,6 +8,9 @@ book:
     email: "info@coditia.com"
   date: today
   language: es
+  favicon: logo.png
+  twitter-card: true
+  open-graph: true
   chapters:
     - index.qmd
     - 01-capitalismo-vs-socialismo.qmd
@@ -16,7 +19,9 @@ book:
     - references.qmd
   site-url: https://www.miguelanxobastos.org/conferencias_vol_i/
   description: "Conferencias de Miguel Anxo Bastos, Volumen I."
-  sharing: []
+  sharing: [linkedin, twitter, facebook]
+  page-navigation: true
+  cover-image: cover.png
 
 bibliography: book.bib
 csl: chicago-fullnote-bibliography.csl
@@ -29,9 +34,28 @@ format:
     css: styles.css
     respect-user-color-scheme: true
     include-in-header: extra_headers.html
-    toc: true
-    number-sections: false
     lang: es
-    grid:
-      sidebar-width: 250px
-      body-width: 900px
+  epub:
+    toc: true
+    lang: es
+    date: today
+    css: styles.css
+  pdf:
+    keep-tex: true
+    documentclass: scrbook
+    classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,12pt]
+    include-in-header:
+      text: |
+        \usepackage{fvextra}
+        \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+        \areaset[0.50in]{4.5in}{8in}
+    include-before-body:
+      text: |
+        \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
+           showspaces = false,
+           showtabs = false,
+           breaksymbolleft={},
+           breaklines
+           % Note: setting commandchars=\\\{\} here will cause an error
+        }
+    fig-pos: 'H'

@@ -1,6 +1,10 @@
 # La revolución francesa.
 
-## [Disertación del profesor Miguel Anxo Bastos Boubeta sobre la Revolución Francesa.](https://www.youtube.com/watch?v=-rXk8cJCdr8) {.unnumbered}
+## Disertación del profesor sobre la Revolución Francesa. {.unnumbered}
+
+::: {.content-hidden unless-format="html"}
+{{< video https://www.youtube.com/watch?v=-rXk8cJCdr8 >}}
+:::
 
 Buenas tardes a todos. No me gusta que hablen castellano por mi culpa o sea por si us plau parle en Catalá a las preguntas yo no parlo
 bem pero gosto muito de escoltar el Catalá. Además me prometieron cuando viniera aquí iban a ser independientes que iba a ser el primer
