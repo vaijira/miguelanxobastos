@@ -17,41 +17,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up R
-        uses: r-lib/actions/setup-r@v2
-        with:
-          r-version: '4.3'
-          use-public-rspm: true
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Set up Pandoc
-        uses: r-lib/actions/setup-pandoc@v2
-
-      - name: Install system dependencies
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y \
-            libcurl4-openssl-dev \
-            libssl-dev \
-            libxml2-dev \
-            libfontconfig1-dev \
-            libharfbuzz-dev \
-            libfribidi-dev
-
-      - name: Install R packages
-        uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          cache-version: 1
-          packages: |
-            any::bookdown
-            any::rmarkdown
-            any::knitr
-            any::downlit
-            any::xml2
-
-      - name: Build bookdown (HTML)
-        working-directory: books/es/conferencias_miguel_anxo_bastos_vol_i/bookdown
-        run: |
-          Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::bs4_book')"
+      - name: Build book (HTML)
+        working-directory: books/es/conferencias_miguel_anxo_bastos_vol_i/quarto
+        run: quarto render
 
       - name: Assemble deploy directory
         run: |
@@ -59,7 +30,7 @@ jobs:
           # Landing page at root
           cp -r site/. _site/
           # Book HTML output under /conferencias_vol_i/
-          cp -r books/es/conferencias_miguel_anxo_bastos_vol_i/bookdown/_book/. _site/conferencias_vol_i/
+          cp -r books/es/conferencias_miguel_anxo_bastos_vol_i/quarto/_book/. _site/conferencias_vol_i/
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1

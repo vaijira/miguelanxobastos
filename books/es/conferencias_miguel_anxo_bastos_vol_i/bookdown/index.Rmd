@@ -16,6 +16,6 @@ csl: chicago-fullnote-bibliography.csl
 
 # Introducción
 
-Este libro contiene una recopilación de conferencias impartidas por el profesor
+Recopilación de conferencias impartidas por el profesor
 Miguel Anxo Bastos Boubeta.
 

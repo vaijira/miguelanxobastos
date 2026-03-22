@@ -8,7 +8,7 @@ Sitio web oficial de **Miguel Anxo Bastos**, economista, filósofo y profesor un
 ## 📚 Contenido
 
 - **Página principal** — Presentación biográfica y acceso a las obras.
-- **Conferencias — Volumen I** — Transcripción y edición de conferencias seleccionadas, compiladas en formato libro mediante [bookdown](https://bookdown.org/).
+- **Conferencias — Volumen I** — Transcripción y edición de conferencias seleccionadas, compiladas en formato libro mediante [Quarto](https://quarto.org/).
 
 ## 🏗️ Estructura del repositorio
 
@@ -19,7 +19,7 @@ Sitio web oficial de **Miguel Anxo Bastos**, economista, filósofo y profesor un
 ├── books/
 │   └── es/
 │       └── conferencias_miguel_anxo_bastos_vol_i/
-│           └── bookdown/   # Fuente del libro (R Markdown)
+│           ├── quarto/     # Fuente del libro (Quarto Markdown)
 └── .github/workflows/
     └── deploy.yaml         # CI/CD → Cloudflare Pages
 ```
@@ -33,17 +33,15 @@ python3 -m http.server 8080 --directory site
 # Visita http://localhost:8080
 ```
 
-### Libro (bookdown)
+### Libro (Quarto)
 
-Requiere R ≥ 4.3 y los paquetes `bookdown`, `rmarkdown`, `knitr`, `downlit` y `xml2`.
-
-```r
-install.packages(c("bookdown", "rmarkdown", "knitr", "downlit", "xml2"))
-```
+Requiere [Quarto CLI ≥ 1.4](https://quarto.org/docs/get-started/). No es necesario instalar R.
 
 ```bash
-cd books/es/conferencias_miguel_anxo_bastos_vol_i/bookdown
-Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::bs4_book')"
+cd books/es/conferencias_miguel_anxo_bastos_vol_i/quarto
+quarto render
+# Previsualización en vivo:
+quarto preview
 ```
 
 El output se genera en `_book/`.
@@ -52,10 +50,9 @@ El output se genera en `_book/`.
 
 El workflow de GitHub Actions compila el libro y despliega automáticamente a **Cloudflare Pages** en cada push a `main`:
 
-1. Configura R y Pandoc.
-2. Instala dependencias R (con caché).
-3. Renderiza el libro con `bs4_book`.
-4. Despliega `site/` + `_book/` a Cloudflare Pages.
+1. Configura Quarto CLI.
+2. Renderiza el libro con `quarto render`.
+3. Despliega `site/` + `_book/` a Cloudflare Pages.
 
 ## 📄 Licencia
 
