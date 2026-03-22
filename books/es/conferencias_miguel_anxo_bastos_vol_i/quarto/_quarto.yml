@@ -3,7 +3,9 @@ project:
 
 book:
   title: "Conferencias de Miguel Anxo Bastos, Volumen I"
-  author: "SinCertezas"
+  author:
+  - name: "Coditia"
+    email: "info@coditia.com"
   date: today
   language: es
   chapters:
@@ -25,6 +27,7 @@ format:
       light: cosmo
       dark: darkly
     css: styles.css
+    respect-user-color-scheme: true
     include-in-header: extra_headers.html
     toc: true
     number-sections: false
