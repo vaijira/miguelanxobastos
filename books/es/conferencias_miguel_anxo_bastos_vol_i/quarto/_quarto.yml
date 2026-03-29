@@ -13,9 +13,9 @@ book:
   open-graph: true
   chapters:
     - index.qmd
-    - 01-capitalismo-vs-socialismo.qmd
-    - 02-la-revolucion-francesa.qmd
-    - 03-el-fracaso-de-la-agenda-2030.qmd
+    - capitalismo-vs-socialismo.qmd
+    - la-revolucion-francesa.qmd
+    - el-fracaso-de-la-agenda-2030.qmd
     - references.qmd
   site-url: https://www.miguelanxobastos.org/conferencias_vol_i/
   description: "Conferencias de Miguel Anxo Bastos, Volumen I."
