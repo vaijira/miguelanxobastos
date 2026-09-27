@@ -40,11 +40,10 @@ jobs:
           cp books/es/conferencias_miguel_anxo_bastos_vol_i/quarto/logo.png _site/logo.png
 
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+        uses: cloudflare/wrangler-action@v4
         if: github.event_name == 'push'
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: miguelanxobastos
-          directory: _site
+          command: pages deploy _site --project-name=miguelanxobastos --branch=${{ github.ref_name }}
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
