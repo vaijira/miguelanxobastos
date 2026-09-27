@@ -12,7 +12,7 @@ Static website for **Miguel Anxo Bastos**, a Spanish economist and professor. It
 
 ## Directory Structure
 
-```
+```text
 site/                        # Landing page (static HTML + CSS)
 │   index.html
 │   style.css
