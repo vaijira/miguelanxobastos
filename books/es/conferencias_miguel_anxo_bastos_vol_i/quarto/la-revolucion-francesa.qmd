@@ -454,43 +454,33 @@ a cabo, pero ustedes se fijan cómo definían el metro, es una barra de platino 
 es una barra de platino iridiado que hicieron que es la décima parte de un meridiano, una cosa así que hicieron con ellos una
 medida y esa medida la la guardaron en el museo de París y entonces es el estándar métrico decimal.
 
-### Pregunta: "" {.unnumbered}
+### Pregunta: "¿Antes de la Revolución Francesa cómo estaba organizado el derecho de propiedad?" {.unnumbered}
 
-querías sí sí la verdad sí yo tengo una pregunta relativa al al tema de la función social
-Pregunta sobre "La función social de la Propiedad"
-de la propiedad de la función social de la propiedad sí yo hace un par de un par de días en clase de derechos reales
-pues el profesor comentó que la propiedad es un derecho real ilimitado eso significa que tú puedes
-si tienes un piso pues lo puedes alquilar las veces que quieras pero el único límite
-es la función social de la propiedad que dice la constitución en el en el artículo tal tal tal bueno la cuestión es que yo le pregunté
-pero esto a qué se refiere de función social de la de la propiedad y dice bueno pues si tú tienes unos terrenos tienes
-eh un las fincas uno con unos acres con unos árboles tú no tienes derecho a quemar
-dicho bosque en tu propiedad porque bueno en cierto sentido estarías perjudicando la propiedad y tal
-entonces mi pregunta es antes de la Revolución francesa cómo estaba regulado este derecho
-porque a mí eso de que no tenemos un derecho real de propiedad sino uno de usufructo
-yo diría que realmente tenemos derecho de propiedad pero la función social es para casos concretos
-Réplica
-la función de la propiedad valió hay un libro yo recomiendo de echar Pipes que se llama propiedad y libertad
-"Propiedad y Libertad" (2002) - Richard Pipes
-que explica un poco la evolución de la propiedad yo creo recordar que los derechos antiguos eran Yusu tendi Yus fruendy yusabutendi
-derecho de uso derecho de disfrute del bien y derecho de abuso es decir que si yo tengo un bien
-tengo derecho a usarlo al fruto de ese bien al fruto de mis de mis árboles o al fruto de de de lo que produzca ese terreno
-y al derecho de abuso quiero decir que si el coche es mío lo puedo quemar si me da la gana
-en en la propiedad central es el derecho obviamente es estúpido hacerlo igual que estúpido quemar un bosque
-pero si el bosque es mío tengo derecho a quemarlo es lo que decía el derecho propiedad antiguo entonces le pones no aprenderse la propiedad social
-se lo ponen por ejemplo con Air BNB aquí su alcaldesa decir que dices el piso no es suyo no lo puede alquilar
-por qué no lo puede alquilar porque dice hay una función social de la propiedad entonces le van le van restringiendo el uso a su propiedad
-o sea le pueden decir quién puede entrar en su casa o quién no puede entrar en mi país eh las casas no se pueden pintar de verde
-porque dice que no es estético eso es real con la última normativa que se hicieron entonces en su casa sí es suya pero no le puede usar como quiere
-puedo ponerle un piso más no no puedo poner un piso más si no molesta la desigual no le puede poner un piso más no sé qué de cosas de estética
-del plan general de no sé qué cosas no puede usted poner un piso más su casa o no puede construir una casa al lado para que vean sus hijos
-no puede por qué porque es la función social de la propiedad la función social de la propiedad como es un concepto um como le no sé cómo le llaman los abogados
-ambiguo o inarticulado al final la interpreta el que gobierna en cada momento
-o sea la función social de la propiedad la determina Rajoy la determina nado colado la termina Puigdemont la determina
-quién está en cada momento en el mando y en qué consiste pues el gobierno anterior dejaba pintar las casas de verde ahora no deja
-el gobierno ahora pintar de verde el conselleiro nuevo bueno pues y y porque antes se pudiera no
-bueno porque ahora la función social ya cambió entonces no es un indeterminado no es un concepto claro
-y al final quiere decir que la confianza es mía después va otra vez no au va
-va el señor después va otra vez usted bedons eh buena tarde eh
+la función de la propiedad varió, hay un libro yo recomiendo de [Richard Pipes](https://en.wikipedia.org/wiki/Richard_Pipes)^[
+Fue un historiador, escritor y profesor universitario polaco nacionalizado estadounidense] que se llama
+"Propiedad y Libertad"[@pipes2000property] que explica un poco la evolución de la propiedad. Yo creo recordar que los derechos
+antiguos eran Ius utendi, Ius fruendi, Ius abutendi, derecho de uso, derecho de disfrute del bien y derecho de abuso, es decir,
+que si yo tengo un bien tengo derecho a usarlo, al fruto de ese bien, al fruto de mis de mis árboles o al fruto de lo que
+produzca ese terreno y al derecho de abuso, quiero decir que si el coche es mío, lo puedo quemar si me da la gana. En la
+propiedad central es el derecho, obviamente es estúpido hacerlo, igual que estúpido quemar un bosque, pero si el bosque es mío
+tengo derecho a quemarlo, eso lo que decía el derecho propiedad antiguo.  Aquí su alcaldesa con AirBNB dice que piso no es suyo,
+no lo puede alquilar, por qué no lo puede alquilar, porque dice hay una función social de la propiedad, entonces le van
+restringiendo el uso a su propiedad, o sea, le pueden decir quién puede entrar en su casa o quién no puede entrar. En mi país
+las casas no se pueden pintar de verde porque dice que no es estético, eso es real, con la última normativa que hicieron,
+entonces en su casa sí es suya pero no le puede usar como quiere, ¿Puedo ponerle un piso más? no, no puedo poner un piso más
+si no molesta es igual no puede poner un piso más, no sé qué de cosas de estética, del plan general de no sé qué cosas,
+no puede usted poner un piso más en su casa o no puede construir una casa al lado para que vivann sus hijos, no puede porque
+es la función social de la propiedad. La función social de la propiedad como es un concepto ambigüo o inarticulado, al final
+la interpreta el que gobierna en cada momento, o sea, la función social de la propiedad la determina
+[Rajoy](https://en.wikipedia.org/wiki/Mariano_Rajoy)^[Es un registrador de la propiedad y expolítico español,
+presidente del Gobierno de España entre 2011 y 2018], la determina [Ada Colau](https://en.wikipedia.org/wiki/Ada_Colau)^[
+Es una activista social y política de izquierda española, alcaldesa de Barcelona entre 2015 y 2023, la primera mujer en
+ocupar el cargo], la determina [Puigdemont](https://en.wikipedia.org/wiki/Carles_Puigdemont)^[Es un político español que
+ejerció como presidente de la Generalidad de Cataluña entre 2016 y 2017 y como diputado no inscrito al Parlamento Europeo
+entre 2019 y 2024.], la determina quién está en cada momento en el mando y en qué consiste, pues el gobierno anterior
+dejaba pintar las casas de verde y el gobierno nuevo ahora no deja pintar de verde, bueno, pues y por qué antes se podía
+y ahora no, bueno porque ahora la función social ya cambió, entonces no es un determinado, no es un concepto claro.
+
 Intervención
 muy interesante a todos los males de los que ha faltado la Revolución francesa mis Yates podrían
 la traición de la idea de igualdad que por ejemplo no se aplica a los dones la única Dred que le donen a Olin the Wish es
