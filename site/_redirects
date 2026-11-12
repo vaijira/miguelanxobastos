@@ -1,4 +1,7 @@
-# Spa-style 404 fallback — serve index.html for any unknown path at root
-# (bookdown will handle its own paths under /conferencias_vol_i/)
-/conferencias_vol_i/* /conferencias_vol_i/:splat 200
-/* /index.html 200
+# Cloudflare Pages redirect rules.
+# There is intentionally no catch-all rule: unknown paths are served by
+# 404.html with a real 404 status, so search engines don't index the
+# landing page under every mistyped URL.
+
+# Analytics proxy redirect for book pages
+/conferencias_vol_i/chivatin/*  /chivatin/:splat  301

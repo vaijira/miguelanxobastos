@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.miguelanxobastos.org/sitemap.xml
+Sitemap: https://www.miguelanxobastos.org/conferencias_vol_i/sitemap.xml
