@@ -27,7 +27,7 @@ o el discurso del IPCC.
 
 Lo voy a asumir en todo el caso, pero me gustaría hacer algunos caveats al respecto, es decir cuando se discuten estos temas a mí siempre me irritó
 mucho la idea de introducir conceptos de las ciencias naturales en las ciencias sociales. Además lleva a muchas confusiones siempre, por ejemplo, son
-muy críticos con un concepto de igualdad usado a las ciencias sociales porque es un concepto yo creo que de origen matemático que tienen difícil
+muy críticos con un concepto de igualdad usado a las ciencias sociales porque es un concepto yo creo que de origen matemático que tiene difícil
 aplicación a la ciencia social o al concepto de fricción o al concepto de equilibrio o al incluso al concepto de evolución es un concepto que se usa para
 la evolución de los animales o de la naturaleza etc. Y creo que tiene, aunque se puede usar, creo que el encaje no es el mismo que en el ámbito natural.
 La evolución humana, la evolución cultural, tiene unos rasgos que son distintos de la otra.
@@ -43,7 +43,7 @@ vale. Democracia está muy bien y tiene sus aplicaciones en unos ámbitos, pero 
 argumento. Pues en la ciencia pasa exactamente lo mismo que el 99% diga una cosa y el 1% diga otra cosa pues es un indicador, pero no es la prueba de que
 una cosa sea verdad. Simplemente es el 99% contra el otro. Es más, todos sabemos que en la historia muchas verdades asumidas por consenso fueron
 cuestionadas por un señor o una señora y ese señor o esa señora pues ganaron al final la batalla tras duro acoso. Porque la ciencia no es democrática es
-una cosa que tiene, no es el número es la calidad del argumento. Entonces es otra cosa que también se dice "no es que la mayoría de los científicos ...",
+una cosa que tiene, no es el número es la calidad del argumento. Entonces es otra cosa que también se dice "no es que la mayoría de los científicos...",
 es más aunque fueran todos ellos eso no valdría tampoco. Aunque fueran todos los que digan una cosa digan lo mismo eso tampoco garantiza la verdad.
 Simplemente es que todos están de acuerdo en un momento dado, cualquier evidencia nueva, cualquier teoría nueva puede desbaratar todo el consenso que
 había anteriormente y la historia de la ciencia nos muestra todo eso. Yo digo, pero repito, muchas veces se usan discursos de corte político aplicados a
@@ -55,7 +55,7 @@ ejemplo, el otro día leí un científico ofendido porque unas declaraciones de 
 la ciencia. Vamos a ver, me ofenderá a mí que soy un científico, ofenderá a muchos científicos, pero no a la ciencia, señora que no tengo el gusto de
 conocer. Pero claro igual que el Estado igual que la clase obrera tenemos que decir o como decía el otro día que tal política del gobierno ofende a la
 nación española. Vamos a ver ofenderá a muchos españoles, pero no ofenderá a la nación española que tampoco tengo el gusto de conocer. Entonces que sé que
-es un concepto y no es una cosa que pretenda ofender, es decir, es un concepto que se usan en las ciencias sociales, pero que no vale. Pues aquí también la
+es un concepto y no es una cosa que pretenda ofender, es decir, es un concepto que se usa en las ciencias sociales, pero que no vale. Pues aquí también la
 ciencia se usa de forma abstracta como si hablara una sola voz y fuera una señora que después de escuchar argumentos decide. Claro la mayoría de los
 científicos opina así y esto es lo que vamos a hacer y estoy de acuerdo.
 
@@ -140,7 +140,7 @@ pero repito que no hace como dice Taleb en su genial libro 'Jugarse la piel'[@ta
 gente ponga el dinero en actuaciones en lo que dice que hace, por lo tanto me da un poco que desconfiar. 
 
 Pero bueno supongamos que aun así la gente es miope tiene miopía temporal y no sabe ver el problema o no lo acepte o cosas por el estilo. Tampoco lo hacen
-los gobiernos, por cierto. Pues yo veo a Narendra Modi, el presidente de la de la India, dijo que iba a retrasar 20 años los objetivos. Xi Jinping de una
+los gobiernos, por cierto. Pues yo veo a Narendra Modi, el presidente de la India, dijo que iba a retrasar 20 años los objetivos. Xi Jinping de una
 forma críptica, como hacen los chinos al hablar, que no hay que desechar lo viejo antes de alcanzar lo nuevo, dijo una frase así que me gusta a mí mucho,
 quiero decir que no va a abandonar el carbón hasta que llegue el día ideal que todo esté descarbonizado. Además una de las sanciones, si no recuerdo mal,
 una de las sanciones que puso cuando fue lo de Taiwán fue romper los acuerdos de cambio climático. Vamos a ver los problemas climáticos a quién, por lo
@@ -177,10 +177,10 @@ arbitrarias porque en un principio pues será muy estricto, pues las renovables 
 bueno, todo lo que sea renovable digamos se acepta como verde, pero de repente te dicen que es verde la nuclear es verde, eso no está mal, de repente te
 dicen que el gas es verde o sea los bonos verdes pueden financiar industrias del gas o puede recibir subvenciones por gas. Entonces qué pasa qué clase de
 plan es este que está cambiando lo que es verde y lo que no es verde, no parece una cosa muy muy coherente. Pero esto desbarata los mercados y después claro
-pones toda una serie de incentivos con los impuestos. ¿Cuál es la cantidad de impuestos correcta?. Los impuestos verdes lo fija un comité experto, fija un
-impuesto verde, pero cuál es el impuesto verde y el impuesto verde a qué y empiezas al final a buscar excepciones, pues tal, si tal secotr es vulnerable
+pones toda una serie de incentivos con los impuestos. ¿Cuál es la cantidad de impuestos correcta? Los impuestos verdes lo fija un comité experto, fija un
+impuesto verde, pero cuál es el impuesto verde y el impuesto verde a qué y empiezas al final a buscar excepciones, pues tal, si tal sector es vulnerable
 tal, etc. Entonces al final no pones impuestos a todo el mundo, sino que los pones a unos países y a otros no pues supuestamente por el desarrollo de esos
-países hay que exceptuarlos de esos impuestos o lo que sea así, pero claro estamos hablando de un problema global no de un problema de ayuda a al desarrollo
+países hay que exceptuarlos de esos impuestos o lo que sea así, pero claro estamos hablando de un problema global no de un problema de ayuda al desarrollo
 que es un problema de segunda fila. Y después, por ejemplo, pues de estas cosas de los mercados de emisión de gases, pusiste una cantidad mas una cantidad
 mudable tienes una cantidad que las empresas tienen que comprar de gas, de derechos de emisión, pues una cantidad supongo que la calcularán expertos, pero
 yo veo que la están cambiando también, los expertos fallan o la están usando políticamente que además están especulando con ellas.
@@ -223,7 +223,7 @@ la escuela austriaca.] el reswitch, volver a formas de capital más primitivas c
 capital más primitiva entonces se da un reswitch y que estamos quemando carbón, no sólo en España, en toda Europa porque acá estamos volviendo a tecnologías
 más primitivas precisamente porque la nueva no fue suficiente.
 
-¿Pero qué nos están diciendo con esto?. Aparte de que se ve que es un mecanismo claro de descoordinación temporal, se mete por no ajustarse el mercado unas
+¿Pero qué nos están diciendo con esto? Aparte de que se ve que es un mecanismo claro de descoordinación temporal, se mete por no ajustarse el mercado unas
 empresas con otras haciendo el cambio como sí se habría hecho si fuera un mecanismo más de mercado. Es decir, mira, de antes de la crisis es más importante
 bajar el precio del gasoil o autorizar formas de producción de electricidad menos limpias, pero más baratas, primero para garantizar el suministro y segundo
 para garantizar que no suba mucho el precio. Que estás diciendo entonces que el cambio climático no es tan importante, eres tú el que lo está diciendo. Yo
@@ -272,10 +272,10 @@ claro, es que tú tienes que pensar en todo y lo que más gracia me hace, estaba
 pensó en ellos entonces los barcos no podían salir. Precisamente, simplemente basta con un señor en Moscú se olvide, para que todos los barcos estén sin
 anzuelo, basta con eso.
 
-Entonces claro yo creo que el planificador puede planificar, [Vlacav Smil](https://en.wikipedia.org/wiki/Vaclav_Smil)^[Científico y analista político
+Entonces claro yo creo que el planificador puede planificar, [Vaclav Smil](https://en.wikipedia.org/wiki/Vaclav_Smil)^[Científico y analista político
 checo-canadiense.] que es un autor que me gusta mucho, aunque discrepo con él en algunas cosas, pero bueno, es un autor que me gusta mucho, cuando habla
-en 'Energy transitions' [@smil2016energy] de transiciones energética dice que el sistema energético que tenemos ahora es la mayor obra jamás creada por el
-hombre, todo el sistema energético, todo lo la infraestructura de hidrocarburos, toda la infraestructura de oleoductos, de refinería y otras cosas por el
+en 'Energy transitions' [@smil2016energy] de transiciones energéticas dice que el sistema energético que tenemos ahora es la mayor obra jamás creada por el
+hombre, todo el sistema energético, toda la infraestructura de hidrocarburos, toda la infraestructura de oleoductos, de refinería y otras cosas por el
 estilo es la mayor obra que jamás creó el ser humano, el querer cambiar todo eso así, en una serie de años es muy arrogante. Entonces tiene muchos problemas
 y tantos problemas repito que son derivados de la coordinación. Yo creo que en sistemas de mercado para conseguir la transición energética serían mejores,
 de hecho hay un paper en el 'The Quarterly Journal of Economics' o no sé si leí alguno en el 'Journal of Libertarian Studies' hace tiempo sobre este
@@ -289,7 +289,7 @@ Entonces la gente dice que prefiere la Biblia al alcohol, pero con realmente con
 lo que importa no es lo que dice la gente es lo que hace la gente, por desgracia. Y creo que aquí pasa algo de eso, pues creo que los esfuerzos deberían ser
 en convencer a la gente de necesidad de cambio, pero esos esfuerzos de convencer a la gente del cambio ellos mismos los desmienten, no con lo que dicen sino
 con lo que hacen. Entre otras cosas, por ejemplo, unas medidas que tomaron, bajaron los impuestos 20 céntimos, te lo venden como una ayuda del gobierno,
-realmente es una reducción fiscal. Pues bajaron los impuestos al gasoil, pues menudo lucha contra el cambio climático. Digo yo que a mí me parece pues que
+realmente es una reducción fiscal. Pues bajaron los impuestos al gasoil, pues menuda lucha contra el cambio climático. Digo yo que a mí me parece pues que
 dentro de su propio discurso me parece incoherente decir está diciendo que es más importante que los transportistas estén contentos que salvar a Gaia. No lo
 digo yo repito que yo asumo esto, lo están diciendo ellos, o sea a mí me gusta que mis gobernantes como decía con el alcohol piensen en el bien común y
 piensen en el futuro de la humanidad.
@@ -300,7 +300,7 @@ inspiro mucho en teóricos de crecimiento para mí son de lo más interesante qu
 Madrid.], el 'Petrocalipsis'[@martinez2020petrocalipsis], después, por ejemplo, si hay algún físico así pues el libro de
 [Alicia Valero](https://es.wikipedia.org/wiki/Alicia_Valero_Delgado)^[Ingeniera química española especializada en la exergía del capital mineral de la
 Tierra.] de 'Thanatia'[@capilla2014thanatia] que habla de lo que dicen los especialistas es que se van a acabar los recursos, se van a acabar todos los
-materiales criticos, buena parte de ellos, los necesarios para hacer pues para hacer tierras raras y cosas de esas, que se pueden estar acabando, que el
+materiales críticos, buena parte de ellos, los necesarios para hacer pues para hacer tierras raras y cosas de esas, que se pueden estar acabando, que el
 capitalismo colapsará y sobre todo que es imposible ninguna transición energética. Turiel o
 [Carlos Taibo](https://en.wikipedia.org/wiki/Carlos_Taibo)^[Escritor y editor español. Profesor jubilado de Ciencia Política y de la Administración de la
 Universidad Autónoma de Madrid.], repito son de los libros más interesantes que leí en mucho tiempo de politólogos aunque no esté de acuerdo con ellos están
@@ -328,12 +328,12 @@ mismo tiempo toda la logística necesaria y toda la logística necesaria, no es 
 las baterías, que haya talleres de reparación, que haya otro tipo de cosas. Esa cosa normalmente Smil dice que las transiciones energéticas de pasar del
 carbón al camión o del ferrocarril al camión pues que llevaron mucho tiempo porque no es sólo poner una fecha, tienes que montar gasolineras, tienes que
 hacer repuestos, tienes que formar no sólo trabajadores sino trabajadores mecánicos que sepan repararte todo eso, y tienes que montar, por ejemplo, una red
-de carreteras para que te puedan andar los coches bien y eso es lo que falta aquí. Puedes pones una fecha, pero va antes probablemente la imposición del
+de carreteras para que te puedan andar los coches bien y eso es lo que falta aquí. Puedes poner una fecha, pero va antes probablemente la imposición del
 coche, digo imposición porque se pone por motivos coercitivos, no es una cosa voluntaria, o coche eléctrico o coche de hidrógeno que está aún menos
 desarrollado, es teóricamente posible, pero la logística del hidrógeno no es tan fácil tampoco, no está desarrollada aún. Entonces primero haces una cosa,
-pero no coordinas el resto de los de los factores, entonces qué pasa y a lo mejor ni siquiera tienes capacidad productiva aunque hay que cambiar grandes
+pero no coordinas el resto de los factores, entonces qué pasa y a lo mejor ni siquiera tienes capacidad productiva aunque hay que cambiar grandes
 decenas de millones de coches entonces no es tan fácil, tú haces una cosa y dices se abaratarán las baterías, sí históricamente la mayor parte de los bienes
-con el tiempo se abarata, cuidado, siempre y cuando el número de gente que lo adoptes es suficiente, es decir, la mayor parte de los bienes pues si tiene
+con el tiempo se abarata, cuidado, siempre y cuando el número de gente que lo adopte es suficiente, es decir, la mayor parte de los bienes pues si tiene
 por lógica del mercado tienden a mejorar, pero más aún si es toda la humanidad que lo adopta. Pero yo lo que estoy viendo es que se está adoptando en unos
 sitios y no en otros, es decir, otros países no están adoptando de hecho estos modelos de movilidad eléctrica por tanto las mejoras de escala, las mejoras
 de abaratamiento no se dan, el teléfono móvil, por ejemplo, se abarató muchísimo, el teléfono móvil se produce a nivel mundial, tenemos un Huawei, una cosa
@@ -349,7 +349,7 @@ que las tenemos, lo que dice Turiel y esto es que no hay litio bastante por lo m
 podamos disfrutar de un magnífico coche eléctrico. Hay cambios en la geografía industrial, por ejemplo, también eso no se tiene en cuenta. La gente dice no
 van a ser las mismas fábricas que hacen los coches ahora las que hagan en el coche eléctrico... o no. No fueron las fábricas de locomotoras las que empezaron
 a fabricar camiones, fueron otras fábricas nuevas y estamos viendo que los punteros en este tipo de tecnologías no están aquí, están en Estados Unidos con
-todas las problemas que pueden tener los puntos de recarga rápida, los coches eléctricos vienen de Estados Unidos tipo Tesla o cosas de este estilo, es decir,
+todos los problemas que pueden tener los puntos de recarga rápida, los coches eléctricos vienen de Estados Unidos tipo Tesla o cosas de este estilo, es decir,
 no vienen de aquí. Quién nos garantiza que van a ser las industrias de aquí las que siguen haciendo los coches, quién nos garantiza que nuestros puertos,
 nuestras infraestructuras son las adecuadas para producir esos coches eléctricos, todas las fábricas de componentes, de baterías, todas esas cosas van a ser
 instaladas aquí o van a estar instaladas en otros sitios, no lo sé. Entonces probablemente haya cambios de geografía industrial, probablemente no sólo que
@@ -386,9 +386,9 @@ innovaciones posibles que podrías hacer, todo ese capital que está invertido e
 que están dedicándose a eso literalmente o se dedican a otra cosa o empiezan a investigar todo eso.
 
 Pero no sólo eso, cuál es el problema del gasoil ahora, uno de ellos mejor dicho, pues que no hay capacidad de refino. Pero usted imagine que tiene una
-refinería le dicen que en 2035 no va a haber diésel, es que hasta 2035 queda mucho, claro sí espere usted. ¿Usted Compraría una máquina nueva para cuando se
-le estropeara la vieja?. ¿Compraría una máquina nueva para su refinería? ¿Invertiría en su refinería? ¿La modernizaría su eficiencia? ¿Intentaría que
-emitiera menos? ¿Intentaría mejorar la calidad del producto o refinar cosas nuevas?. Empezará lentamente a desinvertir. Por lo que leí el 10% de las
+refinería le dicen que en 2035 no va a haber diésel, es que hasta 2035 queda mucho, claro sí espere usted. ¿Usted compraría una máquina nueva para cuando se
+le estropeara la vieja? ¿Compraría una máquina nueva para su refinería? ¿Invertiría en su refinería? ¿La modernizaría su eficiencia? ¿Intentaría que
+emitiera menos? ¿Intentaría mejorar la calidad del producto o refinar cosas nuevas? Empezará lentamente a desinvertir. Por lo que leí el 10% de las
 refinerías en Europa ya cerraron como es normal. Entonces la estructura de capital no es sólo la producción del bien es un proceso muy largo que empieza
 desde el ingeniero que diseña la máquina, hasta toda la logística de apoyo, todo lo que son combustibles, repuestos, reparación, es todo el proceso que es
 muy largo lo que decía Böhm-Bawerk que cuanto más larga es esa estructura más productivo se es. Nuestro problema es que nuestras estructuras de capital son
@@ -418,8 +418,8 @@ que falla, por qué no se percibe como una ventaja porque mientras no se percibe
 con esto.
 
 El problema es que vamos a quitar CO~2~, pero yo leí un ecologista que sólo los achatarramientos de los coches, después hablando de obsolescencia planeada,
-el capitalismo tiene su obsolescencia planeada, me dicen. Quién mete la su licencia planeada a coches en perfecto uso, eso es un derroche y no tiene perdón
-de Dios, es un derroche quitarle al Pablo su coche y tirar coches en uso. Pues bueno es un derroche, vale, pero por proponer un plazo. Lo normal sería que
+el capitalismo tiene su obsolescencia planeada, me dicen. Quién mete la obsolescencia planeada a coches en perfecto uso, eso es un derroche y no tiene perdón
+de Dios, es un derroche quitarle al pueblo su coche y tirar coches en uso. Pues bueno es un derroche, vale, pero por proponer un plazo. Lo normal sería que
 fueran cambiando lentamente, pero yo leí un ecologista y dice que sólo el hecho de achatarrar un coche consume más CO~2~ que el otro. Y después hay otro
 fenómeno de coordinación que se acaba y que no se hizo, se está haciendo la transición al coche eléctrico sin haber cambiado el mix eléctrico. Quiero decir,
 hay países que sí el coche eléctrico es perfectamente neutro, yo leí un estudio, bueno hay estudios al respecto que se pueden discutir, en países como China
