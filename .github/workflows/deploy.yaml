@@ -34,6 +34,8 @@ jobs:
           mkdir -p _site/conferencias_vol_i
           # Landing page at root
           cp -r site/. _site/
+          # lastmod in site/sitemap.xml is a placeholder; stamp it at deploy time
+          sed -i "s|<lastmod>[^<]*</lastmod>|<lastmod>$(date -u +%Y-%m-%dT%H:%M:%SZ)</lastmod>|" _site/sitemap.xml
           # Book HTML output under /conferencias_vol_i/
           cp -r books/es/conferencias_miguel_anxo_bastos_vol_i/quarto/_book/. _site/conferencias_vol_i/
           # Copy logo for the landing page favicon
