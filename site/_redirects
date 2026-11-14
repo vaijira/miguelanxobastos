@@ -4,4 +4,5 @@
 # landing page under every mistyped URL.
 
 # Analytics proxy redirect for book pages
-/conferencias_vol_i/chivatin/*  /chivatin/:splat  301
+/conferencias_vol_i/chivatin/*     /chivatin/:splat  301
+/en/conferencias_vol_i/chivatin/*  /chivatin/:splat  301

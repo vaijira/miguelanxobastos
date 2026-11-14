@@ -1,0 +1,44 @@
+project:
+  type: book
+  post-render:
+    - fix_analytics_paths.py
+
+book:
+  title: "Lectures by Miguel Anxo Bastos, Volume I"
+  author:
+  - name: "Jorge Pérez Burgos"
+    email: "info@coditia.com"
+  date: today
+  language: en
+  favicon: logo.png
+  twitter-card: true
+  open-graph: true
+  navbar:
+    right:
+      - text: "Español"
+        href: "/conferencias_vol_i/"
+  chapters:
+    - index.qmd
+    - capitalism-vs-socialism.qmd
+    - the-french-revolution.qmd
+    - the-failure-of-agenda-2030.qmd
+    - inefficiency-of-public-administration.qmd
+    - references.qmd
+  site-url: https://www.miguelanxobastos.org/en/conferencias_vol_i/
+  description: "Lectures by Miguel Anxo Bastos, Volume I."
+  sharing: [linkedin, twitter, facebook]
+  page-navigation: true
+  cover-image: cover.png
+
+bibliography: book.bib
+csl: chicago-fullnote-bibliography.csl
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    respect-user-color-scheme: true
+    include-in-header: extra_headers.html
+    lang: en

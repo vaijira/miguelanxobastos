@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.miguelanxobastos.org/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://www.miguelanxobastos.org/en/</loc>
+    <lastmod>2026-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://www.miguelanxobastos.org/conferencias_vol_i/</loc>
+    <lastmod>2026-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://www.miguelanxobastos.org/en/conferencias_vol_i/</loc>
+    <lastmod>2026-11-14</lastmod>
   </url>
 </urlset>

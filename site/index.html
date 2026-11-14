@@ -11,6 +11,24 @@
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <meta name="theme-color" content="#0c1b2a" />
   <link rel="canonical" href="https://www.miguelanxobastos.org/" />
+  <link rel="alternate" hreflang="es" href="https://www.miguelanxobastos.org/" />
+  <link rel="alternate" hreflang="en" href="https://www.miguelanxobastos.org/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://www.miguelanxobastos.org/" />
+
+  <script>
+    (function() {
+      var savedLang = localStorage.getItem('preferred_language');
+      if (savedLang === 'es') return;
+      if (savedLang === 'en') {
+        window.location.replace('/en/');
+        return;
+      }
+      var browserLang = (navigator.languages && navigator.languages[0]) || navigator.language || '';
+      if (browserLang.toLowerCase().startsWith('en')) {
+        window.location.replace('/en/');
+      }
+    })();
+  </script>
 
   <!-- Open Graph / Twitter -->
   <meta property="og:type" content="website" />
@@ -111,6 +129,7 @@
       <nav aria-label="Principal">
         <a href="#libro" class="nav-link">El libro</a>
         <a href="#sobre" class="nav-link">Sobre él</a>
+        <a href="/en/" class="nav-link" onclick="localStorage.setItem('preferred_language', 'en');" title="English version">EN</a>
         <a href="/conferencias_vol_i/" class="nav-cta">Leer online</a>
       </nav>
     </div>

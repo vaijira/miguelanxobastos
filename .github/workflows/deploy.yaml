@@ -23,19 +23,26 @@ jobs:
         #   # uncomment below and fill to pin a version
         #   version: 1.3.353
 
-      - name: Build book (HTML)
+      - name: Build Spanish book (HTML)
         working-directory: books/es/conferencias_miguel_anxo_bastos_vol_i/quarto
+        run: quarto render
+
+      - name: Build English book (HTML)
+        working-directory: books/en/conferencias_miguel_anxo_bastos_vol_i/quarto
         run: quarto render
 
       - name: Assemble deploy directory
         run: |
           mkdir -p _site/conferencias_vol_i
-          # Landing page at root
+          mkdir -p _site/en/conferencias_vol_i
+          # Landing page at root (and English landing page under /en/)
           cp -r site/. _site/
           # lastmod in site/sitemap.xml is a placeholder; stamp it at deploy time
           sed -i "s|<lastmod>[^<]*</lastmod>|<lastmod>$(date -u +%Y-%m-%dT%H:%M:%SZ)</lastmod>|" _site/sitemap.xml
-          # Book HTML output under /conferencias_vol_i/
+          # Spanish book HTML output under /conferencias_vol_i/
           cp -r books/es/conferencias_miguel_anxo_bastos_vol_i/quarto/_book/. _site/conferencias_vol_i/
+          # English book HTML output under /en/conferencias_vol_i/
+          cp -r books/en/conferencias_miguel_anxo_bastos_vol_i/quarto/_book/. _site/en/conferencias_vol_i/
           # Copy logo for the landing page favicon
           cp books/es/conferencias_miguel_anxo_bastos_vol_i/quarto/logo.png _site/logo.png
 

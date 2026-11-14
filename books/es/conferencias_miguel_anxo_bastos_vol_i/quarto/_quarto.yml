@@ -13,6 +13,10 @@ book:
   favicon: logo.png
   twitter-card: true
   open-graph: true
+  navbar:
+    right:
+      - text: "English"
+        href: "/en/conferencias_vol_i/"
   chapters:
     - index.qmd
     - capitalismo-vs-socialismo.qmd
