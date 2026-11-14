@@ -38,27 +38,3 @@ format:
     respect-user-color-scheme: true
     include-in-header: extra_headers.html
     lang: es
-  epub:
-    toc: true
-    lang: es
-    date: today
-    css: styles.css
-  pdf:
-    # keep-tex: true
-    documentclass: scrbook
-    classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,12pt]
-    include-in-header:
-      text: |
-        \usepackage{fvextra}
-        \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
-        \areaset[0.50in]{4.5in}{8in}
-    include-before-body:
-      text: |
-        \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
-           showspaces = false,
-           showtabs = false,
-           breaksymbolleft={},
-           breaklines
-           % Note: setting commandchars=\\\{\} here will cause an error
-        }
-    fig-pos: 'H'

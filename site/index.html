@@ -4,189 +4,326 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Miguel Anxo Bastos · Economista y Profesor de Ciencia Política</title>
+  <title>Conferencias de Miguel Anxo Bastos: libro online</title>
   <meta name="description"
-    content="Sitio no oficial de Miguel Anxo Bastos Boubeta, profesor de Ciencia Política y economista gallego. Accede a sus conferencias transcritas, análisis y publicaciones." />
-  <meta property="og:title" content="Miguel Anxo Bastos · Economista y Profesor" />
-  <meta property="og:description"
-    content="Conferencias, análisis económico y pensamiento político de Miguel Anxo Bastos Boubeta." />
-  <meta property="og:locale" content="es_ES" />
+    content="Lee online las conferencias de Miguel Anxo Bastos transcritas y editadas: Capitalismo vs. Socialismo, la Revolución Francesa, el fracaso de la Agenda 2030 y la ineficiencia de la administración pública." />
+  <meta name="author" content="SinCertezas" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#0c1b2a" />
+  <link rel="canonical" href="https://www.miguelanxobastos.org/" />
+
+  <!-- Open Graph / Twitter -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://miguelanxobastos.org/" />
-  <link rel="canonical" href="https://miguelanxobastos.org/" />
+  <meta property="og:site_name" content="Miguel Anxo Bastos" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:url" content="https://www.miguelanxobastos.org/" />
+  <meta property="og:title" content="Conferencias de Miguel Anxo Bastos · Vol. I" />
+  <meta property="og:description"
+    content="Cuatro conferencias del profesor Bastos transcritas y editadas. Léelas online, sin registro." />
+  <meta property="og:image" content="https://www.miguelanxobastos.org/conferencias_vol_i/cover.png" />
+  <meta property="og:image:width" content="640" />
+  <meta property="og:image:height" content="640" />
+  <meta property="og:image:alt" content="Portada del libro Conferencias de Miguel Anxo Bastos, Volumen I" />
+  <meta name="twitter:card" content="summary_large_image" />
+
   <link rel="icon" type="image/png" href="/logo.png" />
+  <link rel="preload" as="image" href="/conferencias_vol_i/cover.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Open+Sans:wght@300;400;600;700&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.miguelanxobastos.org/#website",
+        "url": "https://www.miguelanxobastos.org/",
+        "name": "Miguel Anxo Bastos",
+        "inLanguage": "es"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.miguelanxobastos.org/#person",
+        "name": "Miguel Anxo Bastos Boubeta",
+        "jobTitle": "Profesor de Ciencia Política",
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "Universidad de Santiago de Compostela"
+        },
+        "knowsAbout": ["Escuela austríaca de economía", "Ciencia política", "Liberalismo", "Historia del pensamiento político"]
+      },
+      {
+        "@type": "Book",
+        "@id": "https://www.miguelanxobastos.org/#book-vol-i",
+        "name": "Conferencias de Miguel Anxo Bastos, Volumen I",
+        "url": "https://www.miguelanxobastos.org/conferencias_vol_i/",
+        "image": "https://www.miguelanxobastos.org/conferencias_vol_i/cover.png",
+        "inLanguage": "es",
+        "isAccessibleForFree": true,
+        "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "author": { "@id": "https://www.miguelanxobastos.org/#person" },
+        "about": ["Capitalismo", "Socialismo", "Revolución Francesa", "Agenda 2030", "Administración pública"],
+        "hasPart": [
+          {
+            "@type": "Chapter",
+            "name": "Capitalismo versus socialismo",
+            "url": "https://www.miguelanxobastos.org/conferencias_vol_i/capitalismo-vs-socialismo.html"
+          },
+          {
+            "@type": "Chapter",
+            "name": "La Revolución Francesa",
+            "url": "https://www.miguelanxobastos.org/conferencias_vol_i/la-revolucion-francesa.html"
+          },
+          {
+            "@type": "Chapter",
+            "name": "El fracaso de la Agenda 2030",
+            "url": "https://www.miguelanxobastos.org/conferencias_vol_i/el-fracaso-de-la-agenda-2030.html"
+          },
+          {
+            "@type": "Chapter",
+            "name": "Ineficiencia de la administración pública",
+            "url": "https://www.miguelanxobastos.org/conferencias_vol_i/ineficiencia-administracion-publica.html"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
   <!-- Analytics -->
   <script defer data-domain="miguelanxobastos.org" data-api="/chivatin/chivatin/event"
     src="/chivatin/chivatin/script.js"></script>
 </head>
 
 <body>
+  <a href="#libro" class="skip-link">Saltar al libro</a>
 
   <!-- ─── NAV ─────────────────────────────────────────────── -->
   <header class="nav-bar" id="navbar">
     <div class="nav-inner">
-      <a href="#" class="nav-logo">Miguel Anxo Bastos</a>
-      <nav>
+      <a href="#inicio" class="nav-logo">Miguel Anxo Bastos</a>
+      <nav aria-label="Principal">
+        <a href="#libro" class="nav-link">El libro</a>
         <a href="#sobre" class="nav-link">Sobre él</a>
-        <a href="#publicaciones" class="nav-link">Publicaciones</a>
-        <a href="#contacto" class="nav-link">Contacto</a>
+        <a href="/conferencias_vol_i/" class="nav-cta">Leer online</a>
       </nav>
     </div>
   </header>
 
-  <!-- ─── HERO ─────────────────────────────────────────────── -->
-  <section class="hero" id="inicio">
-    <div class="hero-bg"></div>
-    <div class="hero-content">
-      <span class="hero-label">Profesor · Economista · Pensador</span>
-      <h1 class="hero-title">Miguel Anxo<br /><em>Bastos Boubeta</em></h1>
-      <p class="hero-sub">
-        Profesor de Ciencia Política en la Universidad de Santiago de Compostela,
-        reconocido por sus análisis sobre economía de mercado, filosofía política
-        y la historia del pensamiento liberal.
-      </p>
-      <div class="hero-actions">
-        <a href="#publicaciones" class="btn btn-primary">Ver publicaciones</a>
-        <a href="#sobre" class="btn btn-ghost">Conocer más</a>
-      </div>
-    </div>
-    <div class="hero-scroll-hint" aria-hidden="true">
-      <span></span>
-    </div>
-  </section>
-
-  <!-- ─── SOBRE ─────────────────────────────────────────────── -->
-  <section class="section sobre" id="sobre">
-    <div class="container">
-      <div class="section-header">
-        <h2>Sobre el profesor</h2>
-        <div class="section-rule"></div>
-      </div>
-      <div class="sobre-grid">
-        <div class="sobre-text">
-          <p>
-            Miguel Anxo Bastos Boubeta es doctor en Ciencia Política y profesor
-            titular en la Universidad de Santiago de Compostela. Su obra académica
-            abarca la teoría económica austríaca, la filosofía del derecho y la
-            crítica al intervencionismo estatal.
+  <main>
+    <!-- ─── HERO ─────────────────────────────────────────────── -->
+    <section class="hero" id="inicio">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <span class="hero-label">Nuevo · Volumen I</span>
+          <h1 class="hero-title">
+            Las conferencias de<br /><em>Miguel Anxo Bastos</em>,<br />por fin en un libro
+          </h1>
+          <p class="hero-sub">
+            Cuatro de sus conferencias más celebradas, transcritas palabra por palabra
+            y editadas para leerlas con calma, subrayarlas y citarlas.
+            Con el vídeo original y las preguntas del público.
           </p>
-          <p>
-            A través de sus conferencias y escritos, ha contribuido de forma
-            decisiva a la difusión del pensamiento liberal clásico en el mundo
-            hispanohablante, con especial atención a la historia de las ideas,
-            la economía política y la ética de la libertad.
-          </p>
-          <p>
-            Sus lecciones, marcadas por un estilo riguroso y accesible a la vez,
-            han alcanzado a decenas de miles de oyentes a través de medios
-            digitales y presenciales.
-          </p>
-        </div>
-        <div class="sobre-stats">
-          <div class="stat-card">
-            <span class="stat-number">USC</span>
-            <span class="stat-label">Universidad de Santiago de Compostela</span>
-          </div>
-          <div class="stat-card">
-            <span class="stat-number">Teoría<br />Austríaca</span>
-            <span class="stat-label">Enfoque económico principal</span>
-          </div>
-          <div class="stat-card">
-            <span class="stat-number">Galicia</span>
-            <span class="stat-label">Doctor en Ciencia Política</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ─── PUBLICACIONES ─────────────────────────────────────── -->
-  <section class="section publicaciones" id="publicaciones">
-    <div class="container">
-      <div class="section-header">
-        <h2>Publicaciones</h2>
-        <div class="section-rule"></div>
-        <p class="section-sub">Conferencias y ensayos transcritos y editados</p>
-      </div>
-      <div class="books-grid">
-
-        <!-- Book card: Vol I -->
-        <article class="book-card" id="book-conferencias-vol-i">
-          <div class="book-spine"></div>
-          <div class="book-card-body">
-            <div class="book-meta">
-              <span class="book-tag">Español · Vol. I</span>
-              <span class="book-tag">Open Access</span>
-            </div>
-            <h3 class="book-title">Conferencias de Miguel Anxo Bastos</h3>
-            <p class="book-desc">
-              Una recopilación de conferencias emblemáticas del profesor Bastos:
-              el capitalismo frente al socialismo, la Revolución Francesa y el
-              fracaso de la Agenda 2030. Textos originales transcritos y editados
-              para su consulta y estudio.
-            </p>
-            <ul class="book-chapters">
-              <li>Capitalismo vs. Socialismo</li>
-              <li>La Revolución Francesa</li>
-              <li>El Fracaso de la Agenda 2030</li>
-            </ul>
-            <a href="/conferencias_vol_i/" class="btn btn-primary book-cta" id="book-read-vol-i">
-              Leer el libro →
+          <div class="hero-actions">
+            <a href="/conferencias_vol_i/" class="btn btn-primary btn-lg" id="hero-read">
+              Leer online <span aria-hidden="true">→</span>
             </a>
+            <a href="#libro" class="btn btn-ghost">Ver los capítulos</a>
           </div>
-        </article>
-
-        <!-- Placeholder card: Vol II (coming soon) -->
-        <article class="book-card book-card--soon" id="book-conferencias-vol-ii">
-          <div class="book-spine book-spine--alt"></div>
-          <div class="book-card-body">
-            <div class="book-meta">
-              <span class="book-tag">Próximamente</span>
-            </div>
-            <h3 class="book-title">Conferencias de Miguel Anxo Bastos<br /><em>Volumen II</em></h3>
-            <p class="book-desc">
-              Nuevas conferencias en preparación. Síguenos para recibir
-              notificaciones cuando estén disponibles.
-            </p>
-            <span class="btn btn-ghost btn-disabled">En preparación</span>
-          </div>
-        </article>
-
+          <ul class="hero-facts" aria-label="Datos del libro">
+            <li><strong>4</strong> conferencias</li>
+            <li><strong>+40.000</strong> palabras</li>
+            <li><strong>0 €</strong> sin registro</li>
+          </ul>
+        </div>
+        <a href="/conferencias_vol_i/" class="hero-cover" tabindex="-1" aria-hidden="true">
+          <img src="/conferencias_vol_i/cover.png" width="640" height="640"
+            alt="" fetchpriority="high" />
+        </a>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ─── CONTACTO / FOOTER ─────────────────────────────────── -->
+    <!-- ─── CITA ─────────────────────────────────────────────── -->
+    <section class="quote-band" aria-label="Cita del libro">
+      <div class="container">
+        <blockquote class="pull-quote">
+          <p>«El socialismo es malo, copien ahí, y el capitalismo del libre mercado es bueno,
+            es la única opción. Y dirán esto: ¿y por qué?»</p>
+          <footer>
+            — Miguel Anxo Bastos, Universidad de San Carlos de Guatemala, 2012.
+            <a href="/conferencias_vol_i/capitalismo-vs-socialismo.html">Lee la respuesta completa →</a>
+          </footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ─── LIBRO ─────────────────────────────────────────────── -->
+    <section class="section libro" id="libro">
+      <div class="container">
+        <div class="section-header">
+          <h2>Qué vas a leer</h2>
+          <div class="section-rule"></div>
+          <p class="section-sub">
+            <em>Conferencias de Miguel Anxo Bastos, Volumen I</em>. Empieza por el capítulo que más te interese.
+          </p>
+        </div>
+
+        <ol class="chapters">
+          <li class="chapter-card">
+            <span class="chapter-num">01</span>
+            <div class="chapter-body">
+              <h3><a href="/conferencias_vol_i/capitalismo-vs-socialismo.html">Capitalismo versus socialismo</a></h3>
+              <p class="chapter-where">Universidad de San Carlos de Guatemala · 18 de abril de 2012</p>
+              <p>
+                Por qué el capitalismo de libre mercado funciona y el socialismo no, y qué forma
+                política favorece más el desarrollo. Incluye un debate con los estudiantes sobre
+                la pobreza, la explotación y el caso de Guatemala.
+              </p>
+            </div>
+            <a href="/conferencias_vol_i/capitalismo-vs-socialismo.html" class="chapter-link"
+              aria-label="Leer Capitalismo versus socialismo">Leer →</a>
+          </li>
+
+          <li class="chapter-card">
+            <span class="chapter-num">02</span>
+            <div class="chapter-body">
+              <h3><a href="/conferencias_vol_i/la-revolucion-francesa.html">La Revolución Francesa</a></h3>
+              <p class="chapter-where">Una lectura libertaria de 1789</p>
+              <p>
+                ¿Fue la Revolución Francesa la raíz de todos los males? Los precios máximos, la
+                inflación de los asignados, la propiedad antes de 1789 y la obsesión por
+                racionalizarlo todo, explicados desde la teoría austríaca.
+              </p>
+            </div>
+            <a href="/conferencias_vol_i/la-revolucion-francesa.html" class="chapter-link"
+              aria-label="Leer La Revolución Francesa">Leer →</a>
+          </li>
+
+          <li class="chapter-card">
+            <span class="chapter-num">03</span>
+            <div class="chapter-body">
+              <h3><a href="/conferencias_vol_i/el-fracaso-de-la-agenda-2030.html">El fracaso de la Agenda 2030</a></h3>
+              <p class="chapter-where">V Xuntanzas Austriaco-Galaicas · Mondoñedo, noviembre de 2022</p>
+              <p>
+                Dando por buenos los objetivos de la ONU y del IPCC, Bastos analiza si la
+                planificación es el camino para lograr la transición energética, y por qué los
+                incentivos apuntan a que no lo es.
+              </p>
+            </div>
+            <a href="/conferencias_vol_i/el-fracaso-de-la-agenda-2030.html" class="chapter-link"
+              aria-label="Leer El fracaso de la Agenda 2030">Leer →</a>
+          </li>
+
+          <li class="chapter-card">
+            <span class="chapter-num">04</span>
+            <div class="chapter-body">
+              <h3><a href="/conferencias_vol_i/ineficiencia-administracion-publica.html">Ineficiencia de la administración pública</a></h3>
+              <p class="chapter-where">Universidad Francisco Marroquín, Guatemala · 8 de mayo de 2013</p>
+              <p>
+                Por qué la administración pública funciona mal: sin beneficios ni pérdidas y sin
+                precios no hay cálculo económico posible, y las decisiones sobre educación,
+                justicia, obras públicas o dinero acaban tomándose por criterios políticos.
+              </p>
+            </div>
+            <a href="/conferencias_vol_i/ineficiencia-administracion-publica.html" class="chapter-link"
+              aria-label="Leer Ineficiencia de la administración pública">Leer →</a>
+          </li>
+        </ol>
+
+        <!-- Why read -->
+        <div class="benefits">
+          <div class="benefit">
+            <h3>Fiel al original</h3>
+            <p>Transcripción completa de cada conferencia, con el vídeo de YouTube insertado en cada capítulo.</p>
+          </div>
+          <div class="benefit">
+            <h3>Fácil de citar</h3>
+            <p>Texto buscable, con notas y bibliografía, para estudiar o compartir un fragmento concreto.</p>
+          </div>
+          <div class="benefit">
+            <h3>Libre y gratuito</h3>
+            <p>Sin registro ni anuncios. Publicado bajo licencia Creative Commons BY-NC-SA 4.0.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── SOBRE ─────────────────────────────────────────────── -->
+    <section class="section sobre" id="sobre">
+      <div class="container">
+        <div class="section-header">
+          <h2>Sobre Miguel Anxo Bastos</h2>
+          <div class="section-rule"></div>
+        </div>
+        <div class="sobre-grid">
+          <div class="sobre-text">
+            <p>
+              Miguel Anxo Bastos Boubeta es doctor en Ciencia Política y profesor
+              titular en la Universidad de Santiago de Compostela. Su obra académica
+              abarca la teoría económica austríaca, la filosofía del derecho y la
+              crítica al intervencionismo estatal.
+            </p>
+            <p>
+              A través de sus conferencias y escritos, ha contribuido de forma
+              decisiva a la difusión del pensamiento liberal clásico en el mundo
+              hispanohablante, con especial atención a la historia de las ideas,
+              la economía política y la ética de la libertad.
+            </p>
+            <p>
+              Sus lecciones, marcadas por un estilo riguroso y accesible a la vez,
+              han alcanzado a decenas de miles de oyentes a través de medios
+              digitales y presenciales. Este libro las reúne por escrito.
+            </p>
+          </div>
+          <div class="sobre-stats">
+            <div class="stat-card">
+              <span class="stat-number">USC</span>
+              <span class="stat-label">Profesor en la Universidad de Santiago de Compostela</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">Escuela Austríaca</span>
+              <span class="stat-label">Enfoque económico principal</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">Ciencia Política</span>
+              <span class="stat-label">Doctor y profesor titular</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── CTA FINAL ─────────────────────────────────────────── -->
+    <section class="final-cta">
+      <div class="container final-cta-inner">
+        <h2>Empieza a leer ahora</h2>
+        <p>Abre el libro en tu navegador; no hace falta descargar nada ni registrarse.</p>
+        <a href="/conferencias_vol_i/" class="btn btn-primary btn-lg" id="footer-read">
+          Leer el Volumen I <span aria-hidden="true">→</span>
+        </a>
+        <p class="final-cta-soon">
+          El <strong>Volumen II</strong> está en preparación.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ─── FOOTER ─────────────────────────────────────────── -->
   <footer class="footer" id="contacto">
     <div class="container footer-inner">
       <div class="footer-brand">
         <span class="footer-name">Miguel Anxo Bastos</span>
-        <span class="footer-tagline">Profesor · Economista · USC</span>
-      </div>
-      <div class="footer-links">
-        <a href="https://www.youtube.com/watch?v=b1VOV4dVapQ&list=PLF9aIFEJl1RNHY_1Ks-uacRBmCGb8vvih" target="_blank"
-          rel="noopener" class="footer-icon" aria-label="YouTube" id="link-youtube">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
-            <path
-              d="M23.5 6.2a3.02 3.02 0 0 0-2.12-2.14C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.38.46A3.02 3.02 0 0 0 .5 6.2 31.7 31.7 0 0 0 0 12a31.7 31.7 0 0 0 .5 5.8 3.02 3.02 0 0 0 2.12 2.14C4.5 20.4 12 20.4 12 20.4s7.5 0 9.38-.46a3.02 3.02 0 0 0 2.12-2.14A31.7 31.7 0 0 0 24 12a31.7 31.7 0 0 0-.5-5.8zM9.6 15.6V8.4l6.28 3.6-6.28 3.6z" />
-          </svg>
-        </a>
-        <a href="https://x.com/Bastos_Quotes" target="_blank" rel="noopener" class="footer-icon"
-          aria-label="X / Twitter" id="link-twitter">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
-            <path
-              d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-          </svg>
-        </a>
+        <span class="footer-tagline">Sitio no oficial · Conferencias transcritas</span>
       </div>
       <p class="footer-copy">
-        © <span id="year"></span> SinCertezas · Contenido bajo licencia
+        © <span id="year">2026</span> SinCertezas · Contenido bajo licencia
         <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>
       </p>
     </div>
@@ -196,11 +333,11 @@
     // Set current year
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    // Sticky nav shadow on scroll
+    // Sticky nav background on scroll
     const nav = document.getElementById('navbar');
     window.addEventListener('scroll', () => {
       nav.classList.toggle('nav-scrolled', window.scrollY > 40);
-    });
+    }, { passive: true });
   </script>
 </body>
 
